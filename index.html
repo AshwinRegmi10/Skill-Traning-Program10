@@ -1,93 +1,64 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leo-Net.co.jp Home Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>LEO NET - Your One-Stop Solution</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        .brand-highlight {
-            font-weight: bold;
-            background: linear-gradient(to right, red, blue);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        body {
-            background: linear-gradient(to right, #89f7fe, #66a6ff);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        footer {
-            margin-top: auto;
+        h1, h2 {
+            color: skyblue;
         }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand brand-highlight" href="index.html">Leo-Net.co.jp</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tel:+819060452055">Call: +819060452055</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <header class="bg-primary text-white text-center py-5">
-        <h1>Welcome to <span class="brand-highlight">Leo-Net.co.jp</span></h1>
-        <p>Your one-stop solution for all services</p>
-        <a href="services.html" class="btn btn-light mt-3">Learn More</a>
+    <!-- Navigation Bar -->
+    <header>
+        <h1>LEO NET</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p class="phone">Call: +819060452055</p>
     </header>
 
-    <section class="py-5 text-center">
-        <h2 style="font-weight: bold; color: skyblue; text-decoration: underline;">Our Services</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h3>Fiber, Copper Cabling</h3>
-                    <p>Professional cabelling services for your network infrastructure.</p>
-                </div>
-                <div class="col-md-3">
-                    <h3>Cable De-installation</h3>
-                    <p>Efficient and safe cable de-installation services.</p>
-                </div>
-                <div class="col-md-3">
-                    <h3>Device Installation</h3>
-                    <p>Expert installation of devices to keep your systems running smoothly.</p>
-                </div>
-                <div class="col-md-3">
-                    <h3>Data Center Support</h3>
-                    <p>Reliable customer support for your data center operations.</p>
-                </div>
-            </div>
-        </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Welcome to LEO NET</h2>
+        <p>Your one-stop solution for all services</p>
     </section>
 
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 Leo-Net.co.jp. All Rights Reserved. Call us at: +819060452055 | Email: techno @leo-net.co.jp</p>
-    </footer>
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>LEO NET specializes in IT services, networking, digital marketing, e-commerce, and consulting. We deliver high-quality solutions to help businesses succeed in the digital world.</p>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Fiber & Copper Cabling</strong> – Professional cabling services for your network infrastructure, including installation, maintenance, and testing.</li>
+            <li><strong>Cable De-installation</strong> – Efficient and safe cable de-installation services for network upgrades or relocations, ensuring minimal disruption.</li>
+            <li><strong>Device Installation</strong> – Expert installation of devices such as routers, switches, and servers to keep your systems running smoothly and efficiently.</li>
+            <li><strong>Data Center Customer Support</strong> – Reliable support for your data center operations, including troubleshooting, monitoring, and maintenance services.</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries, reach us at:</p>
+        <p><strong>Phone:</strong> +819060452055</p>
+        <p><strong>Email:</strong> info@leo-net.com</p>
+    </section>
+
 </body>
 </html>
+
 
